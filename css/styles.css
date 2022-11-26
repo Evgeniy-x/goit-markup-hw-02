@@ -1,0 +1,92 @@
+:root {
+    --color-primary: #E5E5E5;
+    --color-logo: #4D5AE5;
+    --color-dark: #2E2F42;
+    --color-text: #434455;
+
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: var(--color-primary);
+
+}
+
+.header {
+    background-color: #fff;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-logo);
+}
+
+.logo-header {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-dark);
+}
+
+.nav-list {
+    list-style-type: none;
+
+}
+
+.nav-item {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-dark);
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.contact-item {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+}
+
+
+
+.hero-section {
+    background-color: var(--color-dark);
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.hero-button {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: var(--color-logo);
+}
+
